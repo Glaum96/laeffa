@@ -1,23 +1,24 @@
-import React, { useState } from 'react'
-
-interface Quote {
-    'quote': string
-}
+import React from 'react'
+import { KanyeTab } from './KanyeTab';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 export function MainContent() {
-    let [quote, setQuote] = useState<Quote>({'quote': ''});
-
-    const getQuote = () => fetch('https://api.kanye.rest')
-    .then(response => response.json())
-    .then((data) => {
-        setQuote(data)
-        console.log("DATA: ", data)
-    });
-
+    
     return (
-        <div>
-            <h1>{quote.quote}</h1>
-            <button onClick={getQuote}>Click me!</button>
+        <div >
+            <Tabs>
+                <TabList>
+                    <Tab>Kanye Be$t</Tab>
+                    <Tab>Title 2</Tab>
+                </TabList>
+
+                <TabPanel>
+                    <KanyeTab />
+                </TabPanel>
+                <TabPanel>
+                    <h2>Any content 2</h2>
+                </TabPanel>
+            </Tabs>
         </div>
     )
 }
