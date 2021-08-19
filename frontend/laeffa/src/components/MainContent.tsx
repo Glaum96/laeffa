@@ -1,4 +1,4 @@
-import React from 'react'
+import { HomeTab } from './HomeTab';
 import { KanyeTab } from './KanyeTab';
 import { MemeTab } from './MemeTab';
 import { ChuckNorrisTab } from './ChuckNorrisTab';
@@ -11,12 +11,16 @@ export function MainContent() {
         <div >
             <Tabs>
                 <TabList>
+                    <Tab>Home</Tab>
                     <Tab>Kanye Be$t</Tab>
                     <Tab>C.N.</Tab>
                     <Tab>Hello, Hungry</Tab>
                     <Tab>Meme</Tab>
                 </TabList>
 
+                <TabPanel>
+                    <HomeTab />
+                </TabPanel>
                 <TabPanel>
                     <KanyeTab />
                 </TabPanel>
