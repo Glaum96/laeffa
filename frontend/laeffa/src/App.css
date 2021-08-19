@@ -7,7 +7,7 @@
 }
 
 .react-tabs__tab-list {
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid orangered;
   margin: 0 0 10px;
   padding: 0;
 }
@@ -16,18 +16,23 @@
   display: inline-block;
   border: 1px solid transparent;
   border-bottom: none;
+  border-radius: 10px 10px 0 0;
   bottom: -1px;
   position: relative;
   list-style: none;
   padding: 6px 12px;
   cursor: pointer;
+  background-color: orange;
+  font-weight: 600;
+  font-family: cursive;
+  margin-right: 5px;
 }
 
 .react-tabs__tab--selected {
-  background: #fff;
+  background: orangered;
   border-color: #aaa;
   color: black;
-  border-radius: 5px 5px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 .react-tabs__tab--disabled {
