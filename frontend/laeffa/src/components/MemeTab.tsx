@@ -19,7 +19,7 @@ export function MemeTab() {
 
     return (
         <div>
-            <img alt="" src={`${meme}`}></img>
+            <img alt="" src={`${meme}`} width="500" height="600"></img>
             <button onClick={getMeme}>Click me!</button>
         </div>
     )
