@@ -17,7 +17,7 @@ export function HomeTab() {
                     Læffas største biceps og minste penis har dessverre forlatt redet. 
                     Den nynazistiske looken og daglige roasten vil bli et stort savn i hverdagen. 
                     Du vil for alltid være en essensiell del i min sterke stilling i Europa, og senere verdensherredømme. 
-                    Hvil i fred min Mussolini ❤️
+                    Hvil i fred min Mussolini &lt;3
                 </p>
                 <h5>Herman</h5>
                 <p>
@@ -37,8 +37,12 @@ export function HomeTab() {
                 </p>
                 <h5>Anna</h5>
                 <p>
-                    Eskild. Tusen takk for at du har tatt meg så godt i mot i læffa. 
-                    Både i politkostyme, zebrakostyme og bare i dinosaur bokser. 
+                Eskild &lt;3 Mangohore. 
+                Tusen takk for at du har tatt meg så godt imot i Læffa. 
+                Både i politikostyme, zebrakostyme og bare i dinosaurbokser. 
+                Du får legge inn en solid innsats på gymmen fremover, 
+                slik at ikke kjæresten min har større biceps enn deg 28 februar. 
+                Alt godt til deg i tiden fremover 
                 </p>
                 <h5>Haakon</h5>
                 <p>
