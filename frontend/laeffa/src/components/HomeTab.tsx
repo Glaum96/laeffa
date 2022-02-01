@@ -45,7 +45,7 @@ export function HomeTab() {
                 Alle unntatt det ene ikke-lenger-eksisterende beinet på sofaen kommer til å savne deg stort. 
                 Takk for minnene. 
                 Jeg kommer til å huske hvor sint du ble av å bli sveket i Risk, 
-                hvor mongo-dritings du var på bursdagen min og den gangen du ødela kjøleskapet med penisen din. 
+                hvor møkkings du var på bursdagen min og den gangen du ødela kjøleskapet med penisen din. 
                 Mitt håp, min sol, min evige roast-beef. Hvil i ufred.
                 </p>
                 <h5>Helene</h5>
