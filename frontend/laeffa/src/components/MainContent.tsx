@@ -1,3 +1,4 @@
+import React from "react";
 import { HomeTab } from "./HomeTab";
 import { KanyeTab } from "./KanyeTab";
 import { MemeTab } from "./MemeTab";
